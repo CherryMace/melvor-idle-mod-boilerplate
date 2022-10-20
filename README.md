@@ -12,6 +12,7 @@ Requires [Node.js](https://nodejs.org/en/)
 5. Run `npm run build` to build.
 6. Upload the generated `.zip` file in the `dist` folder to mod.io.
 
-# Important Notes
+# Important Notes/Caveats
 * Don't use `loadModule` to import modules. Use ES6 `import` instead.
 * Image files that you want to bundle with your mod **must** be in the `img` folder and be imported somewhere in the code.
+* The `img` folder cannot have subdirectories
