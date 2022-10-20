@@ -15,4 +15,5 @@ Requires [Node.js](https://nodejs.org/en/)
 # Important Notes/Caveats
 * Don't use `loadModule` to import modules. Use ES6 `import` instead.
 * Image files that you want to bundle with your mod **must** be in the `img` folder and be imported somewhere in the code.
-* The `img` folder cannot have subdirectories
+* The `img` folder cannot have subdirectories.
+* As mentioned above, the minification and uglification of code makes debugging error messages a bit more tedious.
