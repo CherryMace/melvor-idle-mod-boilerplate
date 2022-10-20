@@ -1,0 +1,5 @@
+{
+  "namespace": "modBoilerplate",
+  "setup": "setup.mjs",
+  "load": ["templates/templates.html"]
+}
